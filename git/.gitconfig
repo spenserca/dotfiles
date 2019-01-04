@@ -1,0 +1,12 @@
+[alias]
+
+  br = "git branch"
+  ca = "git commit -am"
+  cb = "git checkout -b"
+  cm = "git commit"
+  co = "git checkout"
+  ga = "git add"
+  gf = "git fetch"
+  gh = "git history"
+  pl = "git pull"
+  ps = "git push"
