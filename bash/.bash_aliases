@@ -1,0 +1,10 @@
+# git aliases
+alias br = "git branch"
+alias ca = "git commit -am"
+alias cb = "git checkout -b"
+alias cm = "git commit"
+alias co = "git checkout"
+alias ga = "git add"
+alias gh = "git history"
+alias pl = "git pull"
+alias ps = "git push"
