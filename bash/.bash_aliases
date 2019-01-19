@@ -1,3 +1,5 @@
+alias reload="source ~/.bash_profile"
+
 # git aliases
 alias br="git branch"
 alias ca="git commit -am"
