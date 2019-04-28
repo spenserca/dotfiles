@@ -9,4 +9,5 @@ Requirements: `junction`
 - install `junction`
   - `choco install junction`
 - create your symlink
+  - `ln -s ~/.bash_aliases ~/Repositories/Personal/GitHub/dotfiles/bash/.bash_aliases`
   - `junction ~/.bash_aliases ~/Repositories/Personal/GitHub/dotfiles/bash/.bash_aliases`
