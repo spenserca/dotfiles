@@ -23,6 +23,14 @@ alias pl="git pull"
 alias ps="git push"
 alias st="git status"
 
+# npm aliases
+alias nb="npm run build"
+alias nd="npm i -D"
+alias ni="npm i"
+alias ns="npm start"
+alias nt="npm test"
+alias nv="npm run verify"
+
 # yarn aliases
 alias y="yarn"
 alias ya="yarn add"
