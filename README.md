@@ -10,5 +10,5 @@ Requirements: `junction`
   - `choco install junction`
 - create your symlink
   - `mklink /D C:\Users\{Username}\.bashrc C:\Users\{Username}\Repositories\Personal\dotfiles\bash\.bashrc`
-  - `ln -s ~/.bash_aliases ~/Repositories/Personal/GitHub/dotfiles/bash/.bash_aliases`
+  - `ln -s ~/Repositories/Personal/GitHub/dotfiles/bash/.bash_aliases ~/.bash_aliases`
   - `junction ~/.bash_aliases ~/Repositories/Personal/GitHub/dotfiles/bash/.bash_aliases`
