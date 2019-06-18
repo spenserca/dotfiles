@@ -1,7 +1,7 @@
 alias reload="source ~/.bash_profile"
 
 # directories
-alias dotfiles="cd ~/Repositories/Personal/dotfiles"
+alias dotfiles="cd ~/Repositories/Personal/GitHub/dotfiles"
 alias repos="cd ~/Repositories"
 alias personal="cd ~/Repositories/Personal"
 
