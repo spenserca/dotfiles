@@ -1,13 +1,18 @@
+[user]
+
+  email = spenserca@gmail.com
+  name = Spenser Andreassen
+
 [alias]
 
-  br = "git branch"
-  ca = "git commit -am"
-  cb = "git checkout -b"
-  cm = "git commit -m"
-  co = "git checkout"
-  ga = "git add"
-  gf = "git fetch"
-  gh = "git history"
-  pl = "git pull"
-  ps = "git push"
-  st = "git status"
+  br = git branch
+  ca = git commit -am
+  cb = git checkout -b
+  cm = git commit -m
+  co = git checkout
+  ga = git add
+  gf = git fetch
+  gh = git history
+  pl = git pull
+  ps = git push
+  st = git status
