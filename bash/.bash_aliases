@@ -1,9 +1,20 @@
 alias reload="source ~/.bash_profile"
 
+# shell
+alias ls="ls -Ga"
+
 # directories
 alias dotfiles="cd ~/Repositories/Personal/GitHub/dotfiles"
 alias repos="cd ~/Repositories"
 alias personal="cd ~/Repositories/Personal"
+
+alias pgh="cd ~/Repositories/Personal/GitHub"
+alias pbb="cd ~/Repositories/Personal/BitBucket"
+alias pcc="cd ~/Repositories/Personal/CodeCommit"
+
+alias sai="cd ~/Repositories/SAI"
+
+alias xil="cd ~/Repositories/Xilution/GitHub"
 
 # chocolatey aliases
 alias ci="choco install"
