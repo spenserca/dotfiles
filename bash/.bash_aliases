@@ -44,6 +44,9 @@ alias ns="npm start"
 alias nt="npm test"
 alias nv="npm run verify"
 
+# xilution aliases
+alias xil_up_shared_mfa="~/Repositories/Personal/GitHub/dotfiles/xilution/update-shared-xilution-mfa.sh"
+
 # yarn aliases
 alias y="yarn"
 alias ya="yarn add"
