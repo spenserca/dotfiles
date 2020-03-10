@@ -24,7 +24,9 @@ alias cs="choco search"
 
 # git aliases
 alias br="git branch"
-alias brcl="git branch --merged master | grep -v -e 'master' -e '\*' | xargs -r -n 1 git branch -d"
+alias brcl="brmg && brpr && git branch -a"
+alias brmg="git branch --merged master | grep -v -e 'master' -e '\*' | xargs -r -n 1 git branch -d"
+alias brpr="git remote prune origin"
 alias ca="git commit -am"
 alias cb="git checkout -b"
 alias cm="git commit -m"
