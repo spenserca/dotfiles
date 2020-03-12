@@ -34,9 +34,11 @@ alias co="git checkout"
 alias ga="git add"
 alias gf="git fetch"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias ma="git checkout master"
 alias pl="git pull"
 alias ps="git push"
 alias st="git status"
+alias update="ma && pl && brcl"
 
 # npm aliases
 alias nb="npm run build"
