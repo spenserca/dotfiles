@@ -9,5 +9,5 @@ if [ -f ~/.bashrc ]; then
 fi
 
 if [ -f ~/.local_bashrc ]; then
-    source ~/.local_bashrc
+  source ~/.local_bashrc
 fi
