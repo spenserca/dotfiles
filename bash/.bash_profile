@@ -5,7 +5,7 @@ export AWS_XRAY_CONTEXT_MISSING=LOG_ERROR
 
 # load from .bashrc
 if [ -f ~/.bashrc ]; then
-source ~/.bashrc
+  source ~/.bashrc
 fi
 
 if [ -f ~/.local_bashrc ]; then
