@@ -1,5 +1,7 @@
 alias reload="source ~/.bash_profile"
 
+alias unset_http_proxy="export HTTP_PROXY=;export HTTPS_PROXY=;"
+
 # shell
 alias ls="ls -Ga"
 
