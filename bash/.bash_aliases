@@ -1,6 +1,7 @@
 alias reload="source ~/.bash_profile"
 
 alias unset_http_proxy="export HTTP_PROXY=;export HTTPS_PROXY=;"
+alias rm_node_modules="find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
 
 # shell
 alias ls="ls -Ga"
