@@ -2,5 +2,6 @@
 
 A repository for holding common dot files that can be pulled down and symlinked for easier setup.
 
-## symlinking (Windows)
-- Run [bash/link.sh](./bash/link.sh) to symlink .bash* files
+## local file system
+
+Run the `setupLocalFileSystem.sh` script to create local directories for repos, notes and linking bash* files for use.
