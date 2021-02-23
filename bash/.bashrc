@@ -4,6 +4,9 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # load local aliases not stored in source control
+# this allows for overriding bash aliases or having
+# client specific values without putting them in 
+# source control
 if [ -f ~/.local_aliases ]; then
     source ~/.local_aliases
 fi
