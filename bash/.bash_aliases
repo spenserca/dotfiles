@@ -7,17 +7,9 @@ alias rm_node_modules="find . -name \"node_modules\" -type d -prune -exec rm -rf
 alias ls="ls -Ga"
 
 # directories
-alias dotfiles="cd ~/Repositories/Personal/GitHub/dotfiles"
-alias repos="cd ~/Repositories"
-alias personal="cd ~/Repositories/Personal"
-
-alias pgh="cd ~/Repositories/Personal/GitHub"
-alias pbb="cd ~/Repositories/Personal/BitBucket"
-alias pcc="cd ~/Repositories/Personal/CodeCommit"
-
-alias sai="cd ~/Repositories/SAI"
-
-alias xil="cd ~/Repositories/Xilution/GitHub"
+alias dotfiles="cd ~/repos/personal/dotfiles"
+alias repos="cd ~/repos"
+alias personal="cd ~/repos/personal"
 
 # chocolatey aliases
 alias ci="choco install"
@@ -52,7 +44,7 @@ alias nt="npm test"
 alias nv="npm run verify"
 
 # xilution aliases
-alias xil_up_shared_mfa="~/Repositories/Personal/GitHub/dotfiles/xilution/update-shared-xilution-mfa.sh"
+alias xil_up_shared_mfa="~/repos/personal/dotfiles/xilution/update-shared-xilution-mfa.sh"
 
 # yarn aliases
 alias y="yarn"

@@ -2,9 +2,8 @@
 
 set -eu
 
-REPOS_DIR=~/Repositories
-XILUTION_DIR=$REPOS_DIR/Xilution
-GITHUB_DIR=$XILUTION_DIR/GitHub
+REPOS_DIR=~/repos
+XILUTION_DIR=$REPOS_DIR/xilution
 
 if [[ ! -d $REPOS_DIR ]]; then
   echo "Making directory $REPOS_DIR"
@@ -16,10 +15,4 @@ if [[ ! -d $XILUTION_DIR ]]; then
   echo "Making directory $XILUTION_DIR"
   mkdir $XILUTION_DIR
   echo "Made directory $XILUTION_DIR"
-fi
-
-if [[ ! -d $GITHUB_DIR ]]; then
-  echo "Making directory $GITHUB_DIR"
-  mkdir $GITHUB_DIR
-  echo "Made directory $GITHUB_DIR"
 fi
