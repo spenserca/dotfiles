@@ -1,26 +1,6 @@
 #!/bin/bash
 
-source ./functions.sh
-
-# setup notes structure
-
-create_directory ~/notes
-
-# setup repository structure
-
-REPOS_DIR=~/repos
-PERSONAL_DIR=$REPOS_DIR/personal
-
-create_directory $REPOS_DIR
-create_directory $PERSONAL_DIR
-
-XILUTION_DIR=$REPOS_DIR/xilution
-
-create_directory $XILUTION_DIR
-
-CASEYS_DIR=$REPOS_DIR/caseys
-
-create_directory $CASEYS_DIR
+. ./functions.sh
 
 # setup bash files
 

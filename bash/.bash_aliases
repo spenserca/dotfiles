@@ -1,24 +1,30 @@
 alias reload="source ~/.bash_profile"
-
-alias unset_http_proxy="export HTTP_PROXY=;export HTTPS_PROXY=;"
 alias rm_node_modules="find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
-alias notes="code ~/notes"
 
 # shell
+
 alias ls="ls -Ga"
 
 # directories
+
 alias dotfiles="cd ~/repos/personal/dotfiles"
+alias home="cd ~/"
 alias repos="cd ~/repos"
 alias personal="cd ~/repos/personal"
 
 # chocolatey aliases
+
 alias ci="choco install"
 alias cf="choco info"
 alias cl="choco list"
 alias cs="choco search"
 
+# explorer aliases
+
+alias ex="explorer"
+
 # git aliases
+
 alias br="git branch"
 alias brcl="brmg && brpr && git branch -a"
 alias brmg="git branch --merged master | grep -v -e 'master' -e '\*' | xargs -r -n 1 git branch -d"
@@ -37,6 +43,7 @@ alias st="git status"
 alias update="ma && pl && brcl"
 
 # npm aliases
+
 alias nb="npm run build"
 alias nd="npm i -D"
 alias ni="npm i"
@@ -44,10 +51,25 @@ alias ns="npm start"
 alias nt="npm test"
 alias nv="npm run verify"
 
+# terraform aliases
+
+alias tfa="terraform apply"
+alias tfc="terraform fmt -check -recursive"
+alias tfd="terraform destroy"
+alias tff="terraform fmt -recursive"
+alias tfi="terraform init"
+alias tfp="terraform plan"
+
+# vs code aliases
+
+alias notes="code ~/notes"
+
 # xilution aliases
+
 alias xil_up_shared_mfa="~/repos/personal/dotfiles/xilution/update-shared-xilution-mfa.sh"
 
 # yarn aliases
+
 alias y="yarn"
 alias ya="yarn add"
 alias yb="yarn build"
