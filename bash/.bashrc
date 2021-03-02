@@ -10,3 +10,8 @@ fi
 if [ -f ~/.local_aliases ]; then
     source ~/.local_aliases
 fi
+
+# load from .bash_functions
+if [ -f ~/.bash_functions ]; then
+    source ~/.bash_functions
+fi
