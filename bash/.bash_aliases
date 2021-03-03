@@ -26,8 +26,6 @@ alias ex="explorer"
 # git aliases
 
 alias br="git branch"
-alias brcl="brmg && brpr && git branch -a"
-alias brmg="git branch --merged master | grep -v -e 'master' -e '\*' | xargs -r -n 1 git branch -d"
 alias brpr="git remote prune origin"
 alias ca="git commit -am"
 alias cb="git checkout -b"
@@ -36,11 +34,9 @@ alias co="git checkout"
 alias ga="git add"
 alias gf="git fetch"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias ma="git checkout master"
 alias pl="git pull"
 alias ps="git push"
 alias st="git status"
-alias update="ma && pl && brcl"
 
 # npm aliases
 
