@@ -4,9 +4,6 @@ function helloworld() {
     echo "Hello World!"
 }
 
-# checkout default git branch
-# pull new changes
-# clean up merged branches
 function gupdate() {
     ORIGIN_HEAD=$(git symbolic-ref refs/remotes/origin/HEAD)
 
