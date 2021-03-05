@@ -37,7 +37,7 @@ BASHRC_DESTINATION=~/.bashrc
 BASHRC_SOURCE=~/repos/personal/dotfiles/bash/.bashrc
 
 create_empty_file ~/.local_aliases
-create_empty_file ~/local_bashrc
+create_empty_file ~/.local_bashrc
 link_file $BASH_ALIASES_SOURCE $BASH_ALIASES_DESTINATION
 link_file $BASH_FUNCTIONS_SOURCE $BASH_FUNCTIONS_DESTINATION
 link_file $BASH_PROFILE_SOURCE $BASH_PROFILE_DESTINATION

@@ -19,6 +19,11 @@ alias cf="choco info"
 alias cl="choco list"
 alias cs="choco search"
 
+# docker aliases
+
+dlsc="docker ps -a"
+dlsi="docker images -a"
+
 # explorer aliases
 
 alias ex="explorer"
