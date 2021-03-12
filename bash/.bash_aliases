@@ -21,8 +21,8 @@ alias cs="choco search"
 
 # docker aliases
 
-dlsc="docker ps -a"
-dlsi="docker images -a"
+alias dlsc="docker ps -a"
+alias dlsi="docker images -a"
 
 # explorer aliases
 
