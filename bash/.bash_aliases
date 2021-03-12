@@ -22,7 +22,10 @@ alias cs="choco search"
 # docker aliases
 
 alias dlsc="docker ps -a"
+alias drmc="docker rm"
+
 alias dlsi="docker images -a"
+alias drmi="docker rmi"
 
 # explorer aliases
 

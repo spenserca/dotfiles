@@ -24,6 +24,28 @@ function gupdate() {
     git branch -a
 }
 
+docker_clean() {
+   TYPE_TO_CLEAN=$1
+   
+    if [[ $TYPE_TO_CLEAN = "i" || $TYPE_TO_CLEAN = "images" ]]; then
+        echo "Cleaning up docker images"
+        for id in $(docker images -aq);
+        do
+            echo "Removing docker image: $id"
+            docker rmi $id
+        done
+    fi
+
+    if [[ $TYPE_TO_CLEAN = "c" || $TYPE_TO_CLEAN = "containers" ]]; then
+        echo "Cleaning up docker containers"
+        for id in $(docker ps -aq);
+        do
+            echo "Removing docker container: $id"
+            docker rmi $id
+        done
+    fi     
+}
+
 function caseys_commit() {
     # ISSUE_KEY #comment <Your commit comment text>
     ISSUE_KEY=$1
