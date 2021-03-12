@@ -41,7 +41,7 @@ docker_clean() {
         for id in $(docker ps -aq);
         do
             echo "Removing docker container: $id"
-            docker rmi $id
+            docker rm $id
         done
     fi     
 }
