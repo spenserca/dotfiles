@@ -33,3 +33,11 @@ link_file () {
         ln -s $SOURCE $DESTINATION
     fi
 }
+
+copy_file () {
+    SOURCE=$1
+    DESTINATION=$2
+
+    rm $DESTINATION
+    cp -f $SOURCE $DESTINATION
+}

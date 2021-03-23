@@ -1,0 +1,12 @@
+export AWS_SDK_LOAD_CONFIG=true
+export AWS_REGION=us-east-1
+export AWS_XRAY_CONTEXT_MISSING=LOG_ERROR
+
+# load from .zshrc
+if [ -f ~/.zshrc ]; then
+  source ~/.zshrc
+fi
+
+if [ -f ~/.local_zshrc ]; then
+  source ~/.local_zshrc
+fi
