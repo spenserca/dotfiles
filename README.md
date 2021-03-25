@@ -23,6 +23,7 @@ Run the `setupLocalFileSystem.sh` script to create local directories for repos, 
   - [homebrew (mac)](https://brew.sh/)
   - [chocolatey (windows)](https://chocolatey.org/install)
 - [node](https://nodejs.org/en/download/)
+- [terraform](https://www.terraform.io/downloads.html)
 
 
 ## useful links
