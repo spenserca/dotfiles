@@ -13,6 +13,8 @@ Run the `setupLocalFileSystem.sh` script to create local directories for repos, 
   - [azure powershell](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-5.7.0)
 - AWS
   - [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- Browsers
+  - [chrome](https://www.google.com/chrome/)
 - Docker
   - [docker desktop](https://www.docker.com/products/docker-desktop)
 - IDE
@@ -24,6 +26,8 @@ Run the `setupLocalFileSystem.sh` script to create local directories for repos, 
   - [chocolatey (windows)](https://chocolatey.org/install)
 - [node](https://nodejs.org/en/download/)
 - [terraform](https://www.terraform.io/downloads.html)
+- [iterm](https://iterm2.com/downloads.html)
+- [postman](https://www.postman.com/downloads/)
 
 
 ## useful links
