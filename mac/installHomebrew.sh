@@ -39,6 +39,20 @@ install_cask() {
   linebreak
 }
 
+install_if_not_in_list() {
+  BREW_PACKAGE=$1
+
+  if test ! $(brew list | grep $BREW_PACKAGE)
+  then
+    log "Installing $BREW_PACKAGE"
+    brew install --force --cask $BREW_PACKAGE
+  else
+    log "$BREW_PACKAGE is already installed -- skipping installation"
+  fi
+
+  linebreak
+}
+
 if test ! $(which brew)
 then
   echo "${GREEN}Installing Homebrew"
@@ -62,6 +76,8 @@ linebreak
 
 install node nodejs
 
+install nvm nvm
+
 install az azurecli
 
 install aws awscli
@@ -69,3 +85,7 @@ install aws awscli
 install terraform terraform
 
 install_cask code visual-studio-code
+
+install_if_not_in_list jetbrains-toolbox
+
+install_if_not_in_list intellij-idea
