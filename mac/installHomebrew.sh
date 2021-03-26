@@ -90,6 +90,8 @@ install_if_not_in_list jetbrains-toolbox
 
 install_if_not_in_list intellij-idea
 
+install_if_not_in_list webstorm
+
 install_if_not_in_list google-chrome
 
 install_if_not_in_list iterm2
