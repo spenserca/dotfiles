@@ -1,14 +1,17 @@
 #!/bin/bash
 
 function gupdate() {
-    ORIGIN_HEAD=$(git symbolic-ref refs/remotes/origin/HEAD)
+    MASTER_BRANCH=$(git branch -a | grep 'master')
+    if [[ ! -z "$MASTER_BRANCH" ]]; then
+        DEFAULT_BRANCH="master"
+    else
+        MAIN_BRANCH=$(git branch -a | grep 'main')
+        $DEFAULT_BRANCH="main"
+    fi
 
-    # tr: translate, squeeze or delete characters from stdin to stdout
-    VALUES=($(echo $ORIGIN_HEAD | tr "/" "\n"))
-
-    # arithmetic syntax: $(( math ))
-    LAST_INDEX=$((${#VALUES[@]} - 1))
-    DEFAULT_BRANCH=${VALUES[$LAST_INDEX]}
+    if [[ -z "$DEFAULT_BRANCH" ]]; then
+        echo "Did not find master/main branch"
+    fi
 
     echo "Switching to branch $DEFAULT_BRANCH"
     git checkout $DEFAULT_BRANCH
