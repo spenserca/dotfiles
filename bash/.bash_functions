@@ -53,6 +53,7 @@ clean_merged() {
 
     echo "Cleaning up branches not merged with $DEFAULT_BRANCH"
     git branch --merged $DEFAULT_BRANCH | grep -v -e '$DEFAULT_BRANCH' -e '\*' |  xargs -r -n 1 git branch -D
+    git remote prune origin
 
     get_branches    
 }
@@ -62,6 +63,7 @@ clean_non_merged() {
 
     echo "Cleaning up branches not merged with $DEFAULT_BRANCH"
     git branch --no-merged $DEFAULT_BRANCH | grep -v -e '$DEFAULT_BRANCH' -e '\*' |  xargs -r -n 1 git branch -D
+    git remote prune origin
 
     get_branches
 }
