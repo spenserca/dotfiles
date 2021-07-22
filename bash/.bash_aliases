@@ -4,6 +4,7 @@ alias rm_node_modules="find . -name \"node_modules\" -type d -prune -exec rm -rf
 # shell
 
 alias ls="ls -Ga"
+alias find_string="grep -rnw '.' -e "
 
 # directories
 
