@@ -34,6 +34,9 @@ gupdate() {
     echo "Pulling latest changes"
     git pull
 
+    echo "Cleaning up merged branches"
+    clean_merged
+
     get_branches
 }
 
