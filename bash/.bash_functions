@@ -36,8 +36,6 @@ gupdate() {
 
     echo "Cleaning up merged branches"
     clean_merged
-
-    get_branches
 }
 
 clean_branch() {
@@ -54,7 +52,7 @@ clean_branch() {
 clean_merged() {
     DEFAULT_BRANCH=$(get_default_branch)
 
-    echo "Cleaning up branches not merged with $DEFAULT_BRANCH"
+    echo "Cleaning up branches merged with $DEFAULT_BRANCH"
     git branch --merged $DEFAULT_BRANCH | grep -v -e '$DEFAULT_BRANCH' -e '\*' |  xargs -r -n 1 git branch -D
     git remote prune origin
 
