@@ -68,10 +68,6 @@ alias tfp="terraform plan"
 
 alias notes="code ~/notes"
 
-# xilution aliases
-
-alias xil_up_shared_mfa="~/repos/personal/dotfiles/xilution/update-shared-xilution-mfa.sh"
-
 # yarn aliases
 
 alias y="yarn"

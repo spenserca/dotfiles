@@ -14,10 +14,6 @@ PERSONAL_DIR=$REPOS_DIR/personal
 create_directory $REPOS_DIR
 create_directory $PERSONAL_DIR
 
-XILUTION_DIR=$REPOS_DIR/xilution
-
-create_directory $XILUTION_DIR
-
 CASEYS_DIR=$REPOS_DIR/caseys
 
 create_directory $CASEYS_DIR
