@@ -18,23 +18,21 @@ create_directory $WORK_DIR
 
 # setup bash files
 
-# BASH_ALIASES_DESTINATION=~/.bash_aliases
-# BASH_ALIASES_SOURCE=~/repos/personal/dotfiles/bash/.bash_aliases
+BASH_ALIASES_SOURCE=./bash/.bash_aliases
+BASH_ALIASES_DESTINATION=~/.bash_aliases
 
-# BASH_FUNCTIONS_DESTINATION=~/.bash_functions
-# BASH_FUNCTIONS_SOURCE=~/repos/personal/dotfiles/bash/.bash_functions
+BASH_FUNCTIONS_SOURCE=./bash/.bash_functions
+BASH_FUNCTIONS_DESTINATION=~/.bash_functions
 
-# BASH_PROFILE_DESTINATION=~/.bash_profile
-# BASH_PROFILE_SOURCE=~/repos/personal/dotfiles/bash/.bash_profile
+BASH_PROFILE_SOURCE=./bash/.bash_profile
+BASH_PROFILE_DESTINATION=~/.bash_profile
 
-# BASHRC_DESTINATION=~/.bashrc
-# BASHRC_SOURCE=~/repos/personal/dotfiles/bash/.bashrc
+BASHRC_SOURCE=./bash/.bashrc
+BASHRC_DESTINATION=~/.bashrc
 
-# create_empty_file ~/.local_aliases
-# create_empty_file ~/.local_bashrc
-# link_file $BASH_ALIASES_SOURCE $BASH_ALIASES_DESTINATION
-# link_file $BASH_FUNCTIONS_SOURCE $BASH_FUNCTIONS_DESTINATION
-# link_file $BASH_PROFILE_SOURCE $BASH_PROFILE_DESTINATION
-# link_file $BASHRC_SOURCE $BASHRC_DESTINATION
+copy_file $BASH_ALIASES_SOURCE $BASH_ALIASES_DESTINATION
+copy_file $BASH_FUNCTIONS_SOURCE $BASH_FUNCTIONS_DESTINATION
+copy_file $BASH_PROFILE_SOURCE $BASH_PROFILE_DESTINATION
+copy_file $BASHRC_SOURCE $BASHRC_DESTINATION
 
 wait_for_key_press_to_exit

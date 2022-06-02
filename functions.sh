@@ -50,6 +50,11 @@ copy_file () {
     SOURCE=$1
     DESTINATION=$2
 
-    rm $DESTINATION
+    if [[ -f $DESTINATION ]]; then
+        echo "Removing existing file at $DESTINATION"
+        rm $DESTINATION
+    fi
+
+    echo "Copying $SOURCE to $DESTINATION"
     cp -f $SOURCE $DESTINATION
 }
