@@ -1,4 +1,4 @@
-Host github.com-personal
+Host github.com
 	HostName github.com
 	User git
 	IdentityFile ~/.ssh/github_personal
