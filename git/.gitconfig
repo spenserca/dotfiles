@@ -1,4 +1,6 @@
-[includeIf "gitdir:~/repos/work"]
+[includeIf "gitdir:~/repos/personal/"]
+  path = ~/.gitconfig-personal
+[includeIf "gitdir:~/repos/work/"]
   path = ~/.gitconfig-work
 
 [alias]
@@ -18,11 +20,6 @@
 [core]
 
   autocrlf = input
-
-[user]
-
-  email = spenserca@gmail.com
-  name = Spenser Andreassen
 
 [init]
 
