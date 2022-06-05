@@ -11,7 +11,6 @@ alias rr="rm -rf"
 
 alias dotfiles="cd ~/repos/personal/dotfiles"
 alias home="cd ~/"
-alias repos="cd ~/repos"
 alias personal="cd ~/repos/personal"
 alias work="cd ~/repos/work"
 alias ..="cd .."
