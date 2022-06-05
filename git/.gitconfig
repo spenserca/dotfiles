@@ -1,3 +1,6 @@
+[includeIf "gitdir:~/repos/work"]
+  path = ~/.gitconfig-work
+
 [alias]
 
   br = git branch
@@ -20,3 +23,7 @@
 
   email = spenserca@gmail.com
   name = Spenser Andreassen
+
+[init]
+
+  defaultBranch = main
