@@ -4,7 +4,7 @@ A repository for holding common dot files that can be pulled down and symlinked 
 
 ## local file system
 
-Run the `setupLocalFileSystem.sh` script to create local directories for repos, notes and linking bash* files for use.
+Run the `setup.sh` script to create local directories for repos, notes and linking bash* files for use.
 
 ## tools to install
 
