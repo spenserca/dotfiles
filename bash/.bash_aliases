@@ -5,6 +5,7 @@ alias rm_node_modules="find . -name \"node_modules\" -type d -prune -exec rm -rf
 
 alias ls="ls -Ga"
 alias find_string="grep -rnw '.' -e "
+alias rr="rm -rf"
 
 # directories
 
@@ -12,6 +13,8 @@ alias dotfiles="cd ~/repos/personal/dotfiles"
 alias home="cd ~/"
 alias repos="cd ~/repos"
 alias personal="cd ~/repos/personal"
+alias work="cd ~/repos/work"
+alias ..="cd .."
 
 # chocolatey aliases
 

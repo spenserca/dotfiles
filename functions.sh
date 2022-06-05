@@ -19,15 +19,6 @@ create_empty_file () {
     touch $FILE
 }
 
-create_directory () {
-    DIRECTORY=$1
-
-    if [[ ! -d $DIRECTORY ]]; then
-        echo "Making directory $DIRECTORY"
-        mkdir $DIRECTORY
-    fi
-}
-
 link_file () {
     SOURCE=$1
     DESTINATION=$2

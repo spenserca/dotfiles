@@ -7,6 +7,7 @@ if [ -f ~/.bashrc ]; then
   source ~/.bashrc
 fi
 
+# load un-committed bashrc
 if [ -f ~/.local_bashrc ]; then
   source ~/.local_bashrc
 fi
