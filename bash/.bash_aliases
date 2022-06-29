@@ -14,6 +14,7 @@ alias home="cd ~/"
 alias personal="cd ~/repos/personal"
 alias work="cd ~/repos/work"
 alias ..="cd .."
+alias dev="cd ~/developer/work"
 
 # chocolatey aliases
 
