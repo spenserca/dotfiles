@@ -69,6 +69,12 @@ clean_non_merged() {
     get_branches
 }
 
+clean_non_main_branches() {
+    git checkout main
+
+    git branch -D $(git branch)
+}
+
 docker_clean() {
    TYPE_TO_CLEAN=$1
    
