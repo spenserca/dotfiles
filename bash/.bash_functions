@@ -72,7 +72,7 @@ clean_non_merged() {
 clean_non_main_branches() {
     git checkout main
 
-    git branch -D $(git branch)
+    git branch -D $(git branch --format='%(refname:short)')
 }
 
 docker_clean() {
