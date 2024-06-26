@@ -28,6 +28,8 @@ Run the `setup.sh` script to create local directories for repos, notes and linki
 - [terraform](https://www.terraform.io/downloads.html)
 - [iterm](https://iterm2.com/downloads.html)
 - [postman](https://www.postman.com/downloads/)
+- [oh-my-posh](https://ohmyposh.dev/)
+  - `choco install oh-my-posh`
 
 
 ## useful links

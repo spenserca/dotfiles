@@ -10,10 +10,9 @@ create_directory () {
 }
 
 DIRECTORIES=(
-  ~/notes
   ~/repos
   ~/repos/personal
-  ~/repos/work
+  ~/developer/work
 )
 
 for DIR in ${DIRECTORIES[@]}; do
