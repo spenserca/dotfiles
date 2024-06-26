@@ -1,4 +1,4 @@
-eval "$(oh-my-posh init bash)"
+eval "$(oh-my-posh init bash --config '~/developer/personal/dotfiles/bash/ohmyposh.config.json')"
 
 # load from .bash_aliases
 if [ -f ~/.bash_aliases ]; then
