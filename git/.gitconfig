@@ -1,6 +1,6 @@
-[includeIf "gitdir:~/repos/personal/"]
+[includeIf "gitdir:~/developer/personal/"]
   path = ~/.gitconfig-personal
-[includeIf "gitdir:~/repos/work/"]
+[includeIf "gitdir:~/developer/work/"]
   path = ~/.gitconfig-work
 
 [alias]
