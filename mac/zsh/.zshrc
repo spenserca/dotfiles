@@ -1,3 +1,5 @@
+eval "$(oh-my-posh init zsh --config ~/ohmyposh.omp.json)"
+
 # load from .zsh_aliases
 if [ -f ~/.zsh_aliases ]; then
     source ~/.zsh_aliases
