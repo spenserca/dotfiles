@@ -7,6 +7,7 @@ FILES_TO_COPY=(
   .bash_functions
   .bash_profile
   .bashrc
+  ohmyposh.omp.json
 )
 
 for FILE in ${FILES_TO_COPY[@]}; do
